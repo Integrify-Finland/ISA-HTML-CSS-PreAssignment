@@ -1,6 +1,9 @@
 # ISA-HTML-CSS-PreAssignment
 
-## Follow the steps carefully
+## Instructions
+
+- Follow the steps carefully to complete the assigments
+- you can use any images, colors that you wish
 
 ### step 1: design the navigation section according to the given demo
 
