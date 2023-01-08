@@ -21,15 +21,16 @@ body {
     text-decoration: none;
 }
 .navbar .container{
-    max-width: 1400px;
+    max-width: 80%;
     margin: 0 auto;
      
 }
-.containers{
-    max-width: 1400px;
+.team .container{
+    max-width: 80%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr) ;
+    grid-gap: 1rem;
 
 
 }
@@ -49,4 +50,8 @@ body {
     width: fit-content;
     background-color: steelblue;
     border: 1px solid steelblue;
+}
+.fig {
+    padding: 0;
+    margin: 0;
 }
