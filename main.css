@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    border-bottom: 2px solid white;
+    background-color: steelblue; 
+}
+body {
+    background-color: #333;
+    font-family: 'Poppins', sans-serifs;
+    color: white;
+}
+.team {
+    margin-top: 50px;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+.navbar .container{
+    max-width: 1400px;
+    margin: 0 auto;
+     
+}
+.containers{
+    max-width: 1400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+
+
+}
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+}
+.navbar a:hover {
+    color: #333;
+}
+
+.member {
+    text-align: center;
+    width: fit-content;
+    background-color: steelblue;
+    border: 1px solid steelblue;
+}
