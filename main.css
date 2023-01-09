@@ -9,10 +9,16 @@
     background-color: steelblue; 
    
 }
+.header {
+    position: sticky;
+    top: 0px;
+    width: 100%
+}
 body {
     background-color: #333;
     font-family: 'Poppins', sans-serifs;
     color: white;
+    overflow-x: hidden;
 }
 .team {
     margin-top: 50px;
@@ -23,14 +29,15 @@ body {
 }
 .navbar .container{
     max-width: 1100px;
-    margin: 0 auto;     
+    margin: 0 20px;   
+    overflow: hidden;  
 }
 .team .container{
-    max-width: 1100px;
-    margin: 0 auto;
+   
     display: grid;
-    grid-template-columns: repeat(3, 1fr) ;
-    grid-gap: 1rem;
+    grid-template-columns: repeat(3, .5fr) ;
+    grid-gap: 10px;
+    overflow: hidden;
 
 
 }
@@ -65,27 +72,42 @@ i {
     align-items: center;
     justify-content: space-around;
     background-color: steelblue;
+    overflow: hidden;
 }
 .footer-container  ul {
     list-style-type: none;
     display: flex;    
 }
-.footer-container ul li {
+.footer-container #container1 ul li {
     margin-right: 10px;
     padding-right: 5px;
     border-right: 2px solid white;
 }
-.footer-container ul li:nth-of-type(5) {
+.footer-container #container1 ul li:nth-of-type(5) {
     border-right: none;
 }
 .footer-container a {
     color: white;
     text-decoration: none;
 }
-.header {
-    position: sticky;
-    top: 0px;
-}
+
 #container3{
     max-width: 300px;
+}
+footer {
+    width: 100vw;
+}
+
+img{
+    max-width: 100%;
+}
+#container3 .container {
+    text-align: center;
+
+}
+@media screen and (max-width: 400px) {
+    .team .container {
+        display: flex;
+        flex-direction: column;
+    }
 }
