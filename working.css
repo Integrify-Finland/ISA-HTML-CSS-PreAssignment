@@ -35,13 +35,15 @@ p{
     width: 40ch;
     font-size: 0.5 rem;
 }
+.navbar{
+    border-bottom: 2px solid white;
+    background-color: steelblue; 
+   
+}
 .header {
     position: sticky;
     top: 0px;
-    width: 100%;
-    background-color: steelblue; 
-    min-height: 60px;
-    border-bottom: 2px solid white;
+    width: 100%
 }
 
 .team {
@@ -147,8 +149,7 @@ i {
 .footer li:last-child {
     border: 0px;
 }
-.invisible1,
-.invisible2 {
+.invisible {
     display: none;
 }
  @media (max-width: 880px){
@@ -189,20 +190,9 @@ i {
     }
 
     @media (max-width: 480px){
-       .navbar .container{
-            display: none;
-        }
-        .invisible2 {
+        .invisible {
             display: inline-block;
             margin-top: 5px;
-        }
-        .invisible1{
-            display:inline-block;
-            margin-bottom: 2px;
-        }
-        .dropdown{
-            position: relative;
-            z-index: 3;
         }
         .team .container{
             display: flex;
@@ -211,45 +201,6 @@ i {
         .footer .container1, .container3{
             display: none;
         }
-        .dropdown{
-            position: relative;
-            z-index: 10;
-            display: inline-block;
-            width: 100%;
-          }
-            .dropdown__hover{
-              font-size: 2rem;
-              display: inline-block;
-              padding: 10px;
-              width: 100%;
-              background-color:steelblue;
-              color: #ffffff;
-              cursor: pointer;
-            }
-            .dropdown__hover:hover{background-color: skyblue;}
-            .dropdown__menu{
-              position: absolute;
-              display: none;
-              min-width: 100%;
-              background-color: steelblue;
-            }
-            .dropdown:hover .dropdown__menu{
-                display: inline-block;
-            }
-
-              .dropdown__menu a{
-                text-align: center;
-                display: block;
-                padding: 10px;
-                text-decoration: none;
-                border-width: 0;
-                border-top: 1px solid #e0e0e0;
-              }
-              .dropdown__menu a:hover{
-                background-color: steelblue;
-                color: #323b40;
-              }
-          
 
     }
 }   
