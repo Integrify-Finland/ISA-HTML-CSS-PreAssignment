@@ -18,3 +18,5 @@
 ![footer demo](./images/footer.png)
 
 ### step 4: make sure your web page is responsive (fits on any device)
+
+### Preassignment is done. I did my best (for now...). Deploy links will be added soon
