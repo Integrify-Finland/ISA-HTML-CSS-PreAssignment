@@ -18,3 +18,10 @@
 ![footer demo](./images/footer.png)
 
 ### step 4: make sure your web page is responsive (fits on any device)
+
+### Links:
+GitHub
+https://georgios11.github.io/ISA-HTML-CSS-PreAssignment/
+
+Netlify
+https://regal-gecko-26fc38.netlify.app/
